@@ -1,7 +1,7 @@
 # Student Feedback 
 This is a simple PHP site that collects student feedback, stores it in a MySQL database and shows the past feedback with names and dates to go with it. Form data is validated and sanitized before inserting into the database.
 
-![gif of the website](https://github.com/Harry-Ashenden/student-feedback/blob/main/gif/student-feedback.gif)
+<p align="center">![gif of the website](https://github.com/Harry-Ashenden/student-feedback/blob/main/gif/student-feedback.gif)</p>
 
 ## How It's Made:
 
