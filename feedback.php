@@ -1,4 +1,4 @@
-<?php include 'inc/footer.php'; ?>
+<?php include 'inc/header.php'; ?>
 
     <h2>Feedback</h2>
 

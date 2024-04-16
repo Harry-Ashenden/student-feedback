@@ -1,3 +1,6 @@
+<?php include 'config/database.php'; ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,15 +20,15 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
          <li class="nav-item">
-              <a class="nav-link" href="/php-crash/feedback/index.php">Home</a>
+              <a class="nav-link" href="/student-feedback/index.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/php-crash/feedback/feedback.php"
+              <a class="nav-link" href="/student-feedback/feedback.php"
                 >Feedback</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/php-crash/feedback/about.php"
+              <a class="nav-link" href="/student-feedback/about.php"
                 >About</a
               >
             </li>
