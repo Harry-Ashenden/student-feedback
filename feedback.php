@@ -18,7 +18,8 @@
       <div class="card-body text-center">
         <?php echo $item['body']; ?> 
         <div class="text-secondary nt-2">
-          By <?php echo $item['name']; ?> on <?php echo $item['date']; ?>
+          <!-- Formatting date to just DD-MM-YYYY by converting string to time -->
+          By <?php echo $item['name']; ?> on <?php echo date('d-m-Y', strtotime($item['date'])); ?>
         </div>
       </div>
     </div>
